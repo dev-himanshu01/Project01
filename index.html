@@ -10,7 +10,7 @@
     <p style="font-size:45px ;">
         Here is the list of technologies that interests me!
     </p>
-    <ul style="color:blueviolet;font-size:20px " >
+    <ul style="color:blueviolet;font-size:20px; " >
         <li>Java</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -21,27 +21,59 @@
     </ul>
     <p> Again! Lists of Projects I've done so far. </p>
     
-    <ol type="A">
+    <ol style="list-style-type:upper-roman; color:hotpink">
         <li>Company Information Tracking System. </li>
-        <li>Hand-Writing Robot Arm. </li>
-        <li> Portfolio Website in Web 3.0 </li>
+        <li >Hand-Writing Robot Arm. </li>
+        <li value="5">Portfolio Website in Web 3.0 </li>
+        <li>Patient Heart Health Detection Machine Learning Model.</li>
+        <li>Fake News Detection</li>
     </ol>
     <p>Let's explore image tags</p>
     <img src="https://images.unsplash.com/photo-1634825324644-316677b8645a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNoYW5naW5nJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="random images from unsplash" height="400px">
+cd
+    <p>Here! we'll discuss table elements.</p>
 
-    <p>Here! we'll discuss table elements. </p>
-
-    <table style="background-color: brown;"; >
+    <table style="font-size: ;">
         <thead>
-            <!-- Here th and td tags are used to define the individual cells of the table within each row -->
-            <th>Name</th>
-            <th>Marks</th>
+            <tr>
+                <th rowspan="2">
+                    Sr. No.
+                </th>
+                <th rowspan="2">
+                    Name
+                </th>
+                <th colspan="2">
+                    Marks
+                </th>
+            </tr>
+            <tr>
+                <th>Score</th>
+                <th>Percentage</th>
+            </tr>
         </thead>
-        <tr>
-            <!-- The th tag is used to create a cell that contains a heading. -->
-            <td>Himanshu</td>
-            <td>98</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>0101</td>
+                <td>Himanshu</td>
+                <td>98.01</td>
+                <td>98.01 %</td>
+            </tr>
+            <tr>
+                <td>0102</td>
+                <td>Irshad Ahmed</td>
+                <td>92.01</td>
+                <td>92.01 %</td>
+            </tr>
+            <tr>
+                <td>0103</td>
+                <td>Priyanshu Singh</td>
+                <td>99.99</td>
+                <td>99.99 %</td>
+            </tr>
+
+
+        </tbody>
+
     </table>
 
     
